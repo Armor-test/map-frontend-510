@@ -1,0 +1,38 @@
+# CODEOWNERS file for map-frontend-510
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ml @Armor-test/grp-search @Armor-test/squad-cache
+
+# Directory ownership
+/controllers/ @Armor-test/unit-cloud @Armor-test/grp-ui
+/tools/ @Armor-test/dept-security @Armor-test/grp-integration
+/styles/ @Armor-test/grp-search @Armor-test/team-reporting
+/internal/ @Armor-test/grp-storage @Armor-test/squad-mobile @Armor-test/grp-integration
+/public/ @Armor-test/team-security @Armor-test/squad-frontend @Armor-test/team-logging
+/views/ @Armor-test/dept-ui @Armor-test/squad-database @Armor-test/dept-security
+/hooks/ @Armor-test/dept-billing @Armor-test/unit-devops
+/test/ @Armor-test/dept-security @Armor-test/squad-ux
+/pkg/ @Armor-test/squad-frontend @Armor-test/squad-performance @Armor-test/grp-reporting
+/extensions/ @Armor-test/dept-billing @Armor-test/squad-search @Armor-test/dept-automation
+/config/ @Armor-test/team-logging @Armor-test/dept-release
+/security/ @Armor-test/team-notifications @Armor-test/grp-integration
+
+# File type ownership
+*.cpp @Armor-test/unit-design @Armor-test/squad-payments
+*.config @Armor-test/unit-design @Armor-test/dept-logging
+*.java @Armor-test/team-core @Armor-test/grp-reporting
+*.go @Armor-test/grp-payments @Armor-test/unit-test @Armor-test/team-reporting
+*.rb @Armor-test/dept-reporting @Armor-test/grp-payments
+*.py @Armor-test/squad-database @Armor-test/dept-notifications @Armor-test/squad-qa
+*.proto @Armor-test/grp-search @Armor-test/squad-search
+*.tsx @Armor-test/squad-research @Armor-test/grp-reporting
+*.graphql @Armor-test/unit-devops @Armor-test/team-logging @Armor-test/team-frontend
+*.xml @Armor-test/squad-tooling @Armor-test/squad-ml
+*.json @Armor-test/team-logging @Armor-test/unit-devops @Armor-test/dept-ui
+*.scss @Armor-test/unit-test @Armor-test/dept-security @Armor-test/dept-data
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
